@@ -4,7 +4,7 @@
 import urllib.request
 from bs4 import BeautifulSoup
 import ssl
-
+# 拔取数据
 url="https://www.taobao.com"
 ssl._create_default_https_context = ssl._create_unverified_context
 page=urllib.request.urlopen(url).read()
